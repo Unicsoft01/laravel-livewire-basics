@@ -11,3 +11,12 @@ Livewire provides a convenient Artisan command to generate new components quickl
 ```php
 php artisan make:livewire hello-world
 ```
+## Create a Livewire component
+
+##### Livewire provides a convenient Artisan command to generate new components quickly. Run the following command to make a new Counter component:
+
+```php
+php artisan make:livewire counter
+
+```
+

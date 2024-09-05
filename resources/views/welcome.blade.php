@@ -7,7 +7,9 @@
         <title>{{ $title ?? 'Page Title' }}</title>
     </head>
     <body>
-        
+
         <livewire:heello-world />
+        <livewire:counter />
+        <livewire:date-refresh />
     </body>
 </html>
