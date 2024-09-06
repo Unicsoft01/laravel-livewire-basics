@@ -1,3 +1,5 @@
+# Create a Livewire component
+
 ## Install Livewire
 ##### From the root directory of your Laravel app, run the following Composer command:
 
@@ -20,3 +22,8 @@ php artisan make:livewire counter
 
 ```
 
+#####  refresh only the intended component without stressing other
+
+```php
+<button wire:click='$refresh'>reload</button>
+```

@@ -1,9 +1,12 @@
 {{-- Livewire components MUST have a single root element --}}
-<div>
-    <h2>
-        Lorem, ipsum dolor.
-    </h2>
-    <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo, rem.
-    </p>
+<div class="my-2 col-md-4">
+    {{-- magic method to reload only the component --}}
+    <div class="card">
+        <h5 class="card-header">Livewire:Welcome view</h5>
+        <div class="card-body">
+            <h5 class="card-title"> Hello Dear user</h5>
+            <p class="card-text">update the time via huttons.</p>
+
+        </div>
+    </div>
 </div>
